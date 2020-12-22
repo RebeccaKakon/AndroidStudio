@@ -8,6 +8,8 @@ public class Appointment {
     private String startTime;
     private String endTime;
     static int countIdAppointment=0;
+    private String tretmantId;//new
+
 
     public Appointment(){
     }
@@ -36,12 +38,20 @@ public class Appointment {
 
 
 
+    public void settretmantId(String tretmantId) { ////////new
+        this.tretmantId = tretmantId;
+    }
+    public String gettretmantId() { ////////// new
+        return tretmantId;
+    }
+
     public void setdate_app(String date_app) {
         this.date_app = date_app;
     }
     public String getdate_app() {
         return date_app;
     }
+
 
     public String getStartTime() {
         return startTime;

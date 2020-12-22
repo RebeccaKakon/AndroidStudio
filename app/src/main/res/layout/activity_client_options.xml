@@ -33,13 +33,13 @@
         android:layout_marginRight="113dp"
         android:layout_marginBottom="80dp"
         android:text="bookAppointment"
-        app:layout_constraintBottom_toTopOf="@+id/cancelAppointment"
+        app:layout_constraintBottom_toTopOf="@+id/viewAppointment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile" />
 
     <Button
-        android:id="@+id/cancelAppointment"
+        android:id="@+id/viewAppointment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
@@ -48,7 +48,7 @@
         android:layout_marginEnd="105dp"
         android:layout_marginRight="105dp"
         android:layout_marginBottom="308dp"
-        android:text="cancelAppointment"
+        android:text="view Appointment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

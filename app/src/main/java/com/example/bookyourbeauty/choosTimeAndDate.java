@@ -71,6 +71,9 @@ public class choosTimeAndDate extends AppCompatActivity {
                 newAppointment.setStartTime(choosenStartTime);
                 newAppointment.setEndTime(choosenEndTime);
                 newAppointment.setIdManager(managerid);
+                newAppointment.setIdClient(null); //// new
+                newAppointment.settretmantId(null);///new
+
 
 
                 rootNode=FirebaseDatabase.getInstance();
